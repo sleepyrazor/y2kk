@@ -1,0 +1,15 @@
+$azul-claro: #A9CFE4;
+$azul-oscuro: #2C3E50;
+$verde-claro: #A2D9CE;
+$verde-oscuro: #1E8449;
+$rojo-claro: #F1948A;
+$rojo-oscuro: #C0392B;
+$gris-claro: #ECF0F1;
+$gris-oscuro: #c1c2ba;
+$sombra-suave: 0 2px 4px rgba(0, 0, 0, 0.188);
+$brillo-suave: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+$fuente-principal: 'Frutiger Aero', sans-serif;
+$backgroundGradienteGrisClaro : linear-gradient(to bottom, $gris-claro, $gris-oscuro);
+$backgroundGradienteGrisOscuro : linear-gradient(to bottom, $gris-oscuro ,$gris-claro);
+$backgroundGradienteCelesteClaro : linear-gradient(to bottom, $azul-claro, lighten($azul-oscuro, 10%));
+$backgroundGradienteCelesteOscuro : linear-gradient(to bottom, $azul-oscuro ,$azul-claro);

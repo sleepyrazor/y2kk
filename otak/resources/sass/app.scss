@@ -1,0 +1,69 @@
+@import 'variables';
+
+
+button {
+  background-color: $azul-oscuro;
+  color: $gris-claro;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($azul-claro, 10%);
+  }
+}
+
+a.boton {
+  color: $azul-oscuro;
+  text-decoration: none;
+  background: $backgroundGradienteGrisClaro;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: $brillo-suave;
+
+  &:hover {
+    text-decoration: underline;
+    background: $backgroundGradienteGrisOscuro;
+  }
+}
+
+a.boton-azul {
+  color: $gris-claro;
+  text-decoration: none;
+  background: $backgroundGradienteCelesteClaro;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: $brillo-suave;
+
+  &:hover {
+    text-decoration: underline;
+    background: $backgroundGradienteCelesteOscuro;
+  }
+}
+
+a.boton-verde {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, $verde-claro, $verde-oscuro);
+  box-shadow: $brillo-suave;
+
+  &:hover {
+    background: linear-gradient(to bottom, lighten($gris-claro, 10%), lighten($gris-oscuro, 10%));
+  }
+}
+
+a.boton-rojo {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, $rojo-claro, $rojo-oscuro);
+  box-shadow: $brillo-suave;
+
+  &:hover {
+    background: linear-gradient(to bottom, lighten($rojo-claro, 10%), lighten($rojo-oscuro, 10%));
+  }
+}
